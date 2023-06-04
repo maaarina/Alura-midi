@@ -1,4 +1,4 @@
-function tocaSom (seletorAudio) {
+function tocaSom(seletorAudio) {
     const elemento = document.querySelector(seletorAudio);
 
     if (elemento && elemento.localName === 'audio') {
@@ -22,7 +22,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
         tocaSom(idAudio);
     }
 
-     //====== acessibilidade (navegação pelo teclado)
+    //====== acessibilidade (navegação pelo teclado)
 
     tecla.onkeydown = function (evento) {
 
